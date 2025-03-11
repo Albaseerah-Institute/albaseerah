@@ -1,0 +1,504 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: black;
+    color: #E6A400;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #111;
+    padding: 20px;
+}
+
+.logo {
+    font-weight: bold;
+    color: #E6A400;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h1 span {
+    color: white;
+    font-style: italic;
+}
+
+/* Course Details */
+.course-details {
+    margin: 20px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    background: #E6A400;
+    color: black;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Features */
+.features {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.feature {
+    background: #E6A400;
+    color: black;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Contact Section */
+footer {
+    background: #111;
+    padding: 20px;
+}
+
+.contact-button {
+    display: inline-block;
+    background: #E6A400;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+
+.bismillah {
+    font-family: 'Amiri', serif;
+    font-size: 28px; /* Adjust size as needed */
+    text-align: center;
+    font-weight: bold;
+    color: white; /* Elegant dark color */
+    margin-top: 20px;
+}
+
+#course-objectives {
+    background: #f9f9f9;
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+    margin: 40px auto;
+    width: 90%;
+    max-width: 800px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#course-objectives h2 {
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+#course-objectives p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+#course-objectives strong {
+    color: #222;
+}
+
+#course-info {
+    background: #f9f9f9;
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+    margin: 40px auto;
+    width: 90%;
+    max-width: 900px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#course-info h2 {
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.course-info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    text-align: center;
+}
+
+.course-info-item {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.course-info-item h3 {
+    font-size: 18px;
+    color: #222;
+    margin-bottom: 5px;
+}
+
+.course-info-item p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Highlight Payment Section */
+.payment {
+    background: #fffbec;
+    border-left: 5px solid #f4b400;
+}
+
+#register {
+    text-align: center;
+    padding: 40px 0;
+}
+
+#registrationForm {
+    width: 400px; /* Adjust width */
+    padding: 20px;
+    background: #f9f9f9; /* Light background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    margin: 0 auto; /* Centering */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#registrationForm input {
+    width: 100%; /* Ensure inputs fit inside */
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#registrationForm button {
+    width: 100%;
+    padding: 10px;
+    background: #f4b400; /* Adjust color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#registrationForm button:hover {
+    background: #e09e00;
+}
+
+/* Align button properly without too much space */
+.register-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Adjust this value to control spacing */
+}
+
+/* Register Now Button Styling */
+.register-btn {
+    background-color: #ffcc00; /* Yellow button */
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Space between icon and text */
+    text-decoration: none; /* Removes underline from button inside <a> */
+    animation: shake 0.5s infinite alternate; /* Shaking effect */
+}
+
+/* Shaking Animation */
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-3px); }
+    50% { transform: translateX(3px); }
+    75% { transform: translateX(-3px); }
+    100% { transform: translateX(3px); }
+}
+
+/* Hover Effect */
+.register-btn:hover {
+    background-color: #ffb300; /* Slightly darker yellow */
+}
+
+#faq {
+    max-width: 800px;
+    margin: auto;
+}
+.faq-item {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+.faq-question {
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    background: #f8f8f8;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon {
+    font-size: 18px;
+    transition: transform 0.3s ease;
+}
+.faq-answer {
+    display: none;
+    padding: 10px;
+    background: #E6A400;
+}
+.faq-item.active .faq-answer {
+    display: block;
+}
+.faq-item.active .icon {
+    transform: rotate(45deg);
+}
+
+.footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer a:hover {
+    color: #ffd700; /* Change color on hover */
+}
+
+.footer i {
+    font-size: 20px;
+}
+
+/* Countdown Timer Styling */
+.countdown-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Register Button Styling */
+.register-btn {
+    background-color: #ffcc00; /* Eye-catching Yellow */
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Attention-Grabbing Animation */
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+.register-btn {
+    animation: pulse 1.5s infinite;
+}
+
+.navbar {
+    position: absolute;
+    top: 20px; /* Adjust to align with Bismillah */
+    left: 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin-bottom: 10px; /* Space between menu items */
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* General Navigation Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    color: white;
+}
+
+/* Hide the menu on small screens */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+/* Hamburger Menu (Hidden by Default) */
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Responsive Design: Show Hamburger on Small Screens */
+@media screen and (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #000; /* Adjust color */
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        padding: 10px 0;
+    }
+}
+
+/* Sticky Navigation */
+.navbar {
+    position: fixed;  /* Keeps it at the top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000; /* Ensures it stays on top */
+}
+
+/* Add padding to the body to prevent content from being hidden behind the navbar */
+body {
+    padding-top: 60px; /* Adjust this based on navbar height */
+}
+
+/* Default - Hide menu off-screen */
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: -250px; /* Move it off-screen */
+    width: 250px; /* Sidebar width */
+    height: 100%;
+    background-color: #111; /* Dark background */
+    padding-top: 60px;
+    transition: left 0.3s ease-in-out; /* Smooth sliding */
+}
+
+/* When menu is open */
+.mobile-menu.open {
+    left: 0; /* Bring it into view */
+}
+
+/* Menu items */
+.mobile-menu a {
+    display: block;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+/* Close button */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+}
+
+/* Ensure the hamburger icon is visible */
+.hamburger {
+    position: fixed;
+    top: 15px;
+    left: 15px; /* Adjust position */
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 1001; /* Make sure it's above everything */
+    color: white;
+}
